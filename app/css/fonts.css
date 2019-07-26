@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Lato-Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato-Semibold/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Semibold/Lato-Semibold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Lato-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato-Medium/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Medium/Lato-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamPro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamPro/GothamPro.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro.woff") format("woff"), url("../fonts/GothamPro/GothamPro.ttf") format("truetype"); }

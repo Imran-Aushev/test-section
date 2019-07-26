@@ -1,0 +1,437 @@
+$output-bourbon-deprecation-warnings: false !default
+@import "bourbon";
+
+h1, h5, h6
+	font-family: "GothamPro"
+	font-weight: normal
+	color: #ffffff
+h1
+	font-size: em(29px)
+h5
+	font-size: em(20px)
+h6
+	font-family: "GothamPro"
+	font-size: em(13px)
+
+strong
+	font-family: "Lato-Semibold"
+	font-size: em(30px)
+	color: #ffffff
+p, span
+	font-family: "Lato-Medium"
+	color: #ffffff
+p
+	margin: 0
+	padding: 0
+	font-size: em(18px)
+span
+	font-weight: normal
+.before
+	content: ""
+	position: absolute
+body
+	position: relative
+
+.home_sect
+	height: 768px
+	position: relative
+	background: linear-gradient(#222495, #060e1f)
+	padding-top: 90px
+	.image_ice_little
+		height: 70px
+		width: 70px
+		position: absolute
+		background-image: url("../img/bg_foto/ice_little.png")
+		background-repeat: no-repeat
+		background-size: 35px
+		background-position: left
+
+.top_line
+	position: relative
+	background-image: url("../img/bg_foto/ice_middle.png")
+	background-repeat: no-repeat
+	background-size: 82px
+	background-position: right bottom
+	.top_block_eight
+		margin-top: 85px
+		text-align: right
+		margin-right: 85px
+		strong
+			display: block
+		.image_wrap
+			height: 70px
+			width: 70px
+			position: absolute
+			background-image: url("../img/microflora.png")
+			background-repeat: no-repeat
+			background-position: center
+			background-size: 45px
+			background-color: rgba(255, 255, 255, 0.2)
+			padding: 20px
+			border-radius: 200px
+			bottom: 10px
+			right: 10px
+		.image_wrap:after
+			@extend .before
+			height: 20px
+			width: 115px
+			background-image: url("../img/arrow_left_115.png")
+			transform: rotate(-7deg)
+			margin: -20px 0px 0px 27px
+	.top_block_one
+		text-align: center
+		.text_wrap_one
+			strong
+				padding-right: 10px
+			strong, p
+				display: inline-block
+			p:after
+				@extend .before
+				display: block
+				height: 228px
+				width: 5px
+				background-image: url("../img/arrow_big.png")
+				background-position-y: 228px
+				margin: 106px 0px 0px 42px
+		.image_wrap_1
+			height: 95px
+			width: 64px
+			position: absolute
+			background-image: url("../img/center_B.png")
+			background-repeat: no-repeat
+			background-size: 30px
+			background-position: center
+			background-color: rgba(255, 255, 255, 0.2)
+			padding: 0 47px
+			border-radius: 60px
+			right: 100px 
+		.image_wrap_1:after
+				@extend .before
+				display: block
+				height: 224px
+				width: 5px
+				background-image: url("../img/arrow_big.png")
+				background-position-y: 224px
+				left: 0
+				transform: rotate(44deg)
+				margin: 64px 0px 0px -84px	
+	.top_block_seven
+		display: inline-block
+		margin-top: 85px
+		margin-left: 22px
+		.image_wrap_7
+			height: 70px
+			width: 70px
+			position: absolute
+			background-image: url("../img/brain.png")
+			background-repeat: no-repeat
+			background-position: center
+			background-size: 65px
+			background-color: rgba(255, 255, 255, 0.2)
+			padding: 40px
+			border-radius: 200px
+		.image_wrap_7:before
+			@extend .before
+			height: 20px
+			width: 115px
+			background-image: url("../img/arrow_rigth_115.png")
+			transform: rotate(8deg)
+			margin: -39px 0px 0px -163px
+		.text_wrap_seven
+			display: block
+			padding-left: 96px
+			strong
+				display: block
+			strong:before
+				@extend .before
+				height: 23px
+				width: 5px
+				background-image: url("../img/arrow_101.png")
+				background-position-y: 23px
+				top: 162px
+				left: 155px
+			p:after
+				@extend .before
+				height: 23px
+				width: 5px
+				background-image: url("../img/arrow_101.png")
+				background-position-y: 23px
+				transform: rotate(180deg)
+				display: block
+				top: 160px
+
+.section_content
+	margin-top: 25px
+	.top_block_nine
+		text-align: right
+		margin-right: 85px
+		.text_wrap_nine,
+		.image_wrap_nine
+			display: inline-block
+		.image_wrap_nine
+			height: 70px
+			width: 70px
+			position: absolute
+			background-image: url("../img/infection.png")
+			background-repeat: no-repeat
+			background-position: center
+			background-size: 60px
+			background-color: rgba(255, 255, 255, 0.2)
+			padding: 20px
+			border-radius: 200px
+			top: 0
+			right: 10px
+		.image_wrap_nine:after
+			@extend .before
+			height: 20px
+			width: 150px
+			background-image: url("../img/arrow_middle_left_150.png")
+			transform: rotate(-34deg)
+			margin: -61px 0px 0px 11px
+
+	.top_block_ten
+		margin-top: 70px
+		text-align: right
+		margin-right: 85px
+		.text_wrap_ten,
+		.image_wrap_ten
+			display: inline-block
+			strong
+				display: block
+		.image_wrap_ten
+			height: 70px
+			width: 70px
+			position: absolute
+			background-image: url("../img/stomach.png")
+			background-repeat: no-repeat
+			background-position: center
+			background-size: 60px
+			background-color: rgba(255, 255, 255, 0.2)
+			padding: 20px
+			border-radius: 200px
+			right: 10px
+			span
+				top: -45px
+				right: 0px
+				position: absolute
+			span:before
+				@extend .before
+				height: 13px
+				width: 5px
+				background-image: url("../img/arrow_bottom.png")
+				background-position-y: 13px
+				margin-top: 6px
+				left: -12px
+
+			span:after
+				@extend .before
+				display: block
+				height: 16px
+				width: 5px
+				background-image: url("../img/arrow_bottom.png")
+				background-position-y: 16px
+				right: 32px
+				top: 22px
+
+	.ice_big
+		height: 383px
+		width: 359px
+		position: absolute
+		background-image: url("../img/bg_foto/ice_big.png")
+		background-repeat: no-repeat
+		background-position: center
+		background-position-x: 135px
+		background-position-y: 46px
+		background-size: 166px
+	.text_center
+		margin-top: 26px
+		margin-bottom: 80px
+		position: relative	
+		.li_left,
+		.li_right
+			display: inline-grid
+		.li_left
+			text-align: right
+			margin-left: 15px
+			strong:before
+				@extend .before
+				height: 76px
+				width: 5px
+				background-image: url("../img/arrow_101.png")
+				background-position-y: 76px
+				top: -77px
+				margin-left: 6px
+			p:before
+				@extend .before
+				height: 13px
+				width: 5px
+				background-image: url("../img/arrow_bottom.png")
+				background-position-y: 13px
+				left: 0
+				margin-top: 7px
+			p:after
+				@extend .before
+				height: 70px
+				width: 5px
+				background-image: url("../img/arrow_101.png")
+				background-position-y: 70px
+				display: block
+				left: 132px
+
+		.li_right
+			position: absolute
+			right: -35px
+			strong:before
+				@extend .before
+				height: 76px
+				width: 5px
+				background-image: url("../img/arrow_101.png")
+				background-position-y: 76px
+				top: -77px
+				margin-left: 5px
+			p:after
+				@extend .before
+				display: block
+				height: 13px
+				width: 5px
+				background-image: url("../img/arrow_bottom.png")
+				background-position-y: 13px
+				margin-top: 3px
+			h6
+				margin-top: 24px
+				margin-left: 20px
+			h6:before
+				@extend .before
+				display: block
+				height: 13px
+				width: 5px
+				background-image: url("../img/arrow_bottom.png")
+				background-position-y: 13px
+				left: 0
+				transform: rotate(180deg)
+			h6:after
+				@extend .before
+				display: block
+				height: 36px
+				width: 5px
+				background-image: url("../img/arrow_101.png")
+				background-position-y: 36px
+				left: 0
+				margin-top: 18px
+	h5
+		text-align: center
+		margin-top: -5px
+	h5:before
+		@extend .before
+		height: 111px
+		width: 5px
+		background-image: url(../img/arrow_big.png)
+		background-position-y: 111px
+		transform: rotate(-66deg)
+		margin: -77px 1px 1px -65px
+	h5:after
+		@extend .before
+		height: 70px
+		width: 5px
+		background-image: url(../img/arrow_big.png)
+		background-position-y: 70px
+		transform: rotate(-89deg)
+		left: 0
+		margin: -22px 0px 0px 30px
+	.top_block_eleven
+		text-align: center
+		margin-right: 80px
+		.text_wrap_eleven,
+		.image_wrap_eleven
+			display: inline-block
+			text-align: right
+			padding-right: 10px
+			strong:before
+				@extend .before
+				height: 23px
+				width: 5px
+				background-image: url("../img/arrow_101.png")
+				background-position-y: 23px
+				margin: -32px 0px 0px 82px
+			p:after
+				@extend .before
+				height: 23px
+				width: 5px
+				background-image: url("../img/arrow_101.png")
+				background-position-y: 23px
+				transform: rotate(180deg)
+				margin: -70px 0px 0px 20px
+		.image_wrap_eleven
+			height: 70px
+			width: 70px
+			position: absolute
+			background-image: url("../img/bud.png")
+			background-repeat: no-repeat
+			background-size: 60px
+			background-color: rgba(255, 255, 255, 0.2)
+			padding: 20px
+			border-radius: 200px
+
+
+	.left_block
+		margin-top: 14px
+		margin-left: 8px
+		background: linear-gradient(#2a2f68, #050f28)
+		padding-top: 16px
+		border-radius: 30px
+		span
+			font-size: em(12px)
+			padding-left: 60px
+		.block
+			margin-left: 20px
+			margin-top: 20px
+			.image_wrap_liver,
+			.text_wrap_six
+				display: inline-block
+			.text_wrap_six
+				margin-left: 80px
+				p
+					margin-bottom: 30px
+			.image_wrap_liver
+				display: block
+				height: 70px
+				width: 70px
+				position: absolute
+				background-image: url("../img/liver.png")
+				background-repeat: no-repeat
+				background-position: bottom
+				background-size: 56px
+				background-color: rgba(255, 255, 255, 0.2)
+				padding: 20px
+				border-radius: 200px
+			.image_wrap_musle
+				display: block
+				height: 70px
+				width: 70px
+				position: absolute
+				background-image: url("../img/musle.png")
+				background-repeat: no-repeat
+				background-position: center
+				background-size: 60px
+				background-color: rgba(255, 255, 255, 0.2)
+				padding: 20px
+				border-radius: 200px
+			.image_wrap_lipid
+				display: block
+				height: 70px
+				width: 70px
+				position: absolute
+				background-image: url("../img/lipid.png")
+				background-repeat: no-repeat
+				background-position: center
+				background-size: 56px
+				background-color: rgba(255, 255, 255, 0.2)
+				padding: 20px
+				border-radius: 200px
+	.left_block:before
+		@extend .before
+		height: 20px
+		width: 150px
+		background-image: url("../img/arrow_middle_rigth_150.png")
+		transform: rotate(36deg)
+		margin: -65px 0px 0px -137px
